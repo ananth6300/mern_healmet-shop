@@ -1,0 +1,81 @@
+.App {
+  font-family: Arial, sans-serif;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color:rgb(41, 39, 39);
+  padding: 10px 20px;
+  text-decoration: none;
+  
+}
+
+.logo img {
+  height: 40px;
+  width: 50px;
+  padding: 0 0 ;
+  cursor: pointer;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links li button {
+  background-color: #555;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+  
+}
+
+.nav-links li button:hover {
+  background-color: #777;
+}
+span{
+  color: aqua;
+}
+.Tit{
+  color: white;
+}
+/* Style the navigation list */
+.nav-links {
+  list-style: none; /* Remove default list styling */
+  padding: 0;
+  margin: 0;
+  display: flex; /* Align items horizontally */
+}
+
+.nav-links li {
+  margin-right: 20px; /* Space between menu items */
+}
+
+/* Style the NavLink */
+.nav-links a {
+  text-decoration: none; /* Remove underline */
+  color: white; /* Use the color of the parent element, or set a specific color */
+  padding: 10px;
+}
+
+/* Optional: Style the NavLink on hover */
+.nav-links a:hover,
+.nav-links a:focus {
+  color: #007bff; /* Change color on hover/focus */
+}
+
+/* Style the search input */
+.nav-links .se {
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+.y{
+  margin: 0 0;
+}
